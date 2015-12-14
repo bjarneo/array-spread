@@ -1,0 +1,36 @@
+{
+  "name": "array-spread",
+  "version": "1.0.0",
+  "description": "Concat a matrix array into one flat array.",
+  "main": "spread.js",
+  "scripts": {
+    "posttest": "npm run lint",
+    "prepublish": "npm prune && npm test",
+    "lint": "eslint .",
+    "test": "mocha spread.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjarneo/array-spread.git"
+  },
+  "homepage": "https://github.com/bjarneo/array-spread",
+  "bugs": {
+    "url": "https://github.com/bjarneo/spread-array/issues"
+  },
+  "keywords": [
+    "spread",
+    "splat",
+    "array",
+    "concat",
+    "matrix",
+    "arrays",
+    "apply"
+  ],
+  "author": "Bjarne Oeverli",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "eslint-config-vgno": "^5.0.0",
+    "eslint": "^1.8.0"
+  }
+}
