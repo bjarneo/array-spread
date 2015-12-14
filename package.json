@@ -1,6 +1,6 @@
 {
   "name": "array-spread",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Concat a matrix array into one flat array.",
   "main": "spread.js",
   "scripts": {
