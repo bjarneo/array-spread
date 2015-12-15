@@ -3,7 +3,7 @@ array-spread
 
 Why
 ------
-Concat a matrix array into one flat array.
+Concat a matrix array into one flattened array.
 
 Installation
 ------

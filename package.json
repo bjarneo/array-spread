@@ -1,7 +1,7 @@
 {
   "name": "array-spread",
-  "version": "1.0.1",
-  "description": "Concat a matrix array into one flat array.",
+  "version": "1.0.2",
+  "description": "Concat a matrix array into one flattened array.",
   "main": "spread.js",
   "scripts": {
     "posttest": "npm run lint",
